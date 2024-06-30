@@ -11,7 +11,30 @@
     <script src="./js/aframe/aframe-template-component.min.js"></script>
     <script src="./js/aframe/aframe-proxy-event-component.min.js"></script>
 </head>
+<style>
+    .btn-back {
+        display: block;
+        margin: 20px;
+        padding: 10px 20px;
+        background: linear-gradient(to left, #5c98ff, #ff5fcf);
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-weight: bold;
+        font-size: 1rem;
+        position: relative;
+        z-index: 10;
+        text-align: center;
+    }
 
+    .btn-back:hover {
+        background: linear-gradient(to right, #5f74ff, #7bfec1);
+        color:black;
+    }
+</style>
 <body>
     <a-scene>
         <a-assets>
