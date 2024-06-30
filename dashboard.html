@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AVirtual Reality</title>
+    <link rel="stylesheet" href="style2.css">
+
+    <script>
+        function showMainContent() {
+            document.getElementById('main-content').style.display = 'flex';
+        }
+    </script>
+</head>
+
+<body>
+    <div id="main-content">
+        <div class="title">
+            <h1>Holiday Spot Virtual Reality Tour</h1>
+        </div>
+
+        <nav>
+            <a href="virtualtour.html" class="menu-link">Start</a>
+            <a href="guide.html" class="menu-link">Guide</a>
+            <a href="about.html" class="menu-link">About</a>
+        </nav>
+    </div>
+
+    <script>
+        window.onload = function() {
+            setTimeout(showMainContent, 3000);
+        };
+    </script>
+</body>
+</html>
